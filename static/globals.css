@@ -1,0 +1,51 @@
+* {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+input[type='number'] {
+	-moz-appearance: textfield; /* Firefox */
+	appearance: textfield;
+}
+
+.button {
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 5px -1px #ccc;
+	cursor: pointer;
+	height: 26px;
+	max-width: 200px;
+	border-radius: 5px;
+	padding: 0 8px;
+	color:rgba(0, 0, 0, 0.8)
+}
+.button:hover {
+	opacity: 0.8;
+}
+.button:active {
+	opacity: 1;
+}
+
+.input {
+	height: 26px;
+	border-radius: 5px;
+	padding: 0 5px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	color: #1f1f1f;
+	font-size: 14px;
+}
+
+.label {
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 12px;
+}
+
+.option {
+	padding: 5px !important;
+}
